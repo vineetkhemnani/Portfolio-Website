@@ -1,0 +1,111 @@
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: #edf2fc;
+    font-family: sans-serif;
+    position: relative;
+}
+
+nav{
+    margin: auto;
+    padding: 2px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo{
+    width: 10rem;
+    cursor: pointer;
+    /* The cursor property specifies the mouse cursor to be displayed when pointing over an element */
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #606163;
+}
+
+nav ul li a:hover{
+    color: #ff4321;
+}
+
+.info{
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+.info h1{
+    font-size: 60px;
+    color: rgb(73, 72, 72);
+    margin-bottom: 20px;
+}
+
+span{
+    color: rgba(86, 86, 161, 0.897);
+}
+
+.info p{
+    color: #606163;
+    line-height: 22px;
+}
+
+.info a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 5px;
+}
+
+.info a:hover{
+    font-size: large;
+}
+.img_box{
+    padding-bottom: 30px;
+    width: 38%;
+    height: 80%;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+
+.img_box img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s,left 1s;
+}
+
+.img_box:hover .back_img{
+    bottom: 50px;
+}
+
+.img_box:hover .main_img{
+    left: 54%;
+}
+
+.social-links{
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.social-links a{
+    font-size: 30px;
+    color: #606163;
+    margin-right: 20px;
+}
+
+.social-links a:hover{
+    color: #ff4321;
+}
